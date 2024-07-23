@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+
+section{
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.options{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.options img{
+    width: 30px;
+    margin-right: 3%;
+}
+.options button{
+    background-color: #a4c3b2;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 12vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.carro button{
+    background-color: #a4c3b2;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 12vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.carro img{
+    width: 30px;
+    margin-right: 3%;
+}
+
+.options button:hover{
+    background-color: #6b9080;
+}
+.one1 button{
+    background-color: #436355;
+}
+.container2{
+    background-color: #f6fff8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 98vh;
+}
+
+.conatiner3{
+    width: 1700px;
+    height: 98vh;
+    margin-left: 2%;
+}
