@@ -6,7 +6,7 @@ body{
 
 section{
     display: flex;
-
+    justify-content: space-around;
 }
 
 a{
@@ -81,12 +81,13 @@ a{
 .contend{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     gap: 10%;
     grid-auto-rows: 22rem;
 }
 
 .item{
-    width: 300px;
+    width: 14vw;
     height: auto;
     border: solid rgb(182, 179, 179) 1px;
     border-radius: 10px;
@@ -97,13 +98,13 @@ a{
 }
 
 .contend img{
-    width: 250px;
+    width: 12vw;
     height: auto;
 }
 
 p{
     text-align: center;
-    width: 300px;
+    width: 14vw;
 }
 
 .inf{
@@ -126,11 +127,3 @@ p{
     color: white;
 }
 
-@media (max-width: 480px){
-    .contend{
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 10%;
-        grid-auto-rows: 22rem;
-    }
-}
